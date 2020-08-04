@@ -1,0 +1,148 @@
+.color1 {
+  color: #003B73; }
+
+.color2 {
+  color: #0074B7; }
+
+.color4 {
+  color: #BFD7ED; }
+
+.color3 {
+  color: #60A3D9; }
+
+.black {
+  color: #3d3d3d; }
+
+.white {
+  color: #fdfdfd; }
+
+.bg__color1 {
+  background-color: #003B73; }
+
+.bg__color2 {
+  background-color: #0074B7; }
+
+.bg__color3 {
+  background-color: #60A3D9; }
+
+.bg__color4 {
+  background-color: #BFD7ED; }
+
+.bg__black {
+  background-color: #3d3d3d; }
+
+.bg__white {
+  background-color: #fdfdfd; }
+
+.border__color1 {
+  border: solid 0.1rem #003B73; }
+
+.border__color2 {
+  border: solid 0.1rem #0074B7; }
+
+.border__color3 {
+  border: solid 0.1rem #60A3D9; }
+
+.div__border__color3 {
+  border-right: solid 0.1rem #60A3D9;
+  border-left: solid 0.1rem #60A3D9;
+  border-bottom: solid 0.1rem #60A3D9; }
+
+.border__color4 {
+  border: solid 0.1rem #BFD7ED; }
+
+.border__gray {
+  border: solid 0.1rem #67595E; }
+
+.title__ppal {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: black;
+  background-color: #BFD7ED;
+  border-right: solid 0.2rem black;
+  border-left: solid 0.2rem black;
+  border-bottom: solid 0.2rem black;
+  animation-duration: 3s;
+  animation-name: aparecer; }
+
+.title__secondary1 {
+  display: inline-flex;
+  border-right: solid 0.2rem #fdfdfd;
+  border-left: solid 0.2rem #fdfdfd;
+  border-bottom: solid 0.2rem #fdfdfd;
+  border-top: solid 0.2rem white;
+  background-color: white;
+  text-align: center;
+  color: #0074B7;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 0rem;
+  padding: 0.1rem 2rem 0.1rem 2rem; }
+
+.title__secondary2 {
+  display: inline-flex;
+  border-right: solid 0.2rem #d3e3f3;
+  border-left: solid 0.2rem ligthen(#BFD7ED, 5%);
+  border-bottom: solid 0.2rem ligthen(#BFD7ED, 5%);
+  border-top: solid 0.2rem #BFD7ED;
+  background-color: #BFD7ED;
+  text-align: center;
+  color: #0074B7;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 0rem;
+  padding: 0.1rem 2rem 0.4rem 2rem; }
+
+.title__tertiary {
+  text-align: center;
+  color: #0074B7;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 0rem;
+  padding: 0.1rem 2rem 0.4rem 2rem; }
+
+.p__ppal {
+  text-align: center;
+  border: solid 0.1rem #60A3D9;
+  color: #003B73;
+  padding: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  animation-duration: 6s;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.bg-dark {
+  background-color: black !important; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #BFD7ED; }
+
+.box1 {
+  height: 20rem; }
+
+.box2 {
+  height: 10rem; }
+
+.box__shadow {
+  height: 20rem; }
+
+.box__shadow:hover {
+  box-shadow: 0 0 10px gray; }
+
+.p__ppal1 {
+  text-align: center;
+  border: solid 0.1rem #60A3D9;
+  color: #003B73;
+  padding: 1.5rem;
+  margin-top: 0; }

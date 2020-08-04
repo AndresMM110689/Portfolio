@@ -1,0 +1,199 @@
+// ----------------
+// PALETA DE COLORE
+// ----------------
+
+$color1: #003B73;
+$color2: #0074B7; 
+$color3: #60A3D9;
+$color4: #BFD7ED;
+$black: #3d3d3d;
+$white: #fdfdfd;
+
+.color1 {
+  color: $color1;
+}
+.color2 {
+  color: $color2;
+}
+.color4 {
+  color: $color4;
+}
+.color3 {
+  color: $color3;
+}
+.black {
+  color: $black
+}
+.white {
+  color: $white;
+}
+.bg__color1 {
+  background-color: $color1;
+}
+.bg__color2 {
+  background-color: $color2;
+}
+.bg__color3 {
+  background-color: $color3;
+}
+.bg__color4 {
+  background-color: $color4;
+}
+.bg__black {
+  background-color: $black;
+}
+.bg__white {
+  background-color: $white;
+}
+.border__color1{
+  border: solid 0.1rem $color1;
+}
+.border__color2{
+  border: solid 0.1rem $color2;
+}
+.border__color3{
+  border: solid 0.1rem $color3;
+}
+.div__border__color3{
+  border-right: solid 0.1rem $color3;
+  border-left: solid 0.1rem $color3;
+  border-bottom: solid 0.1rem $color3;
+}
+.border__color4{
+  border: solid 0.1rem $color4;
+}
+.border__gray{
+  border: solid 0.1rem #67595E;
+}
+
+// ------
+// MIXINS
+// ------
+
+@mixin title__ppal {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: black;
+  background-color: $color4;
+  border-right: solid 0.2rem black;
+  border-left: solid 0.2rem black;
+  border-bottom: solid 0.2rem black;
+  animation-duration: 3s;
+  animation-name: aparecer;
+} 
+.title__ppal {
+  @include title__ppal;
+}
+
+@mixin title__secondary1 {
+  display: inline-flex;
+  border-right: solid 0.2rem $white;
+  border-left: solid 0.2rem $white;
+  border-bottom: solid 0.2rem $white;
+  border-top: solid 0.2rem white;
+  background-color: white;
+  text-align: center;
+  color: $color2;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 0rem;
+  padding: 0.1rem 2rem 0.1rem 2rem;
+}
+.title__secondary1 {
+  @include title__secondary1;
+}
+
+@mixin title__secondary2 {
+  display: inline-flex;
+  border-right: solid 0.2rem lighten($color4, 5%);
+  border-left: solid 0.2rem ligthen($color4, 5%);
+  border-bottom: solid 0.2rem ligthen($color4, 5%);
+  border-top: solid 0.2rem $color4;
+  background-color: $color4;
+  text-align: center;
+  color: $color2;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 0rem;
+  padding: 0.1rem 2rem 0.4rem 2rem;
+}
+.title__secondary2 {
+  @include title__secondary2;
+}
+
+@mixin title__tertiary {
+  text-align: center;
+  color: $color2;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 0rem;
+  padding: 0.1rem 2rem 0.4rem 2rem;
+}
+.title__tertiary {
+  @include title__tertiary;
+}
+
+
+@mixin p__ppal {
+  text-align: center;
+  border: solid 0.1rem $color3;
+  color: $color1;
+  padding: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  animation-duration: 6s;
+  animation-name: aparecer;
+}
+.p__ppal {
+  @include p__ppal;
+}
+@keyframes aparecer {
+  0% {opacity:0;}
+  100% {opacity: 1;}
+}
+
+// -----------------------------------------
+// Clases de Boostrap modificadas manualmente
+// -----------------------------------------
+
+.bg-dark {
+  background-color: black!important;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: $color4;
+}
+
+// -------
+// TAMAÑOS
+// -------
+
+$height: 20rem;
+
+.box1 {
+  height: $height;
+}
+.box2 {
+  height: $height/2;
+}
+.box__shadow {
+  height: $height;
+}
+.box__shadow:hover {
+  box-shadow: 0 0 10px gray;
+}
+
+.p__ppal1 {
+  text-align: center;
+  border: solid 0.1rem $color3;
+  color: $color1;
+  padding: 1.5rem;
+  margin-top: 0;
+}
+
+
+
