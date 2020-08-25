@@ -126,7 +126,7 @@
   padding: 1.5rem;
   margin-top: 0;
   margin-bottom: 1rem;
-  animation-duration: 9s;
+  animation-duration: 3s;
   animation-name: aparecer; }
 
 @keyframes aparecer {
@@ -159,3 +159,10 @@
   color: #003B73;
   padding: 1.5rem;
   margin-top: 0; }
+
+.no__link {
+  text-decoration: none;
+  color: white; }
+
+a:link, a:visited, a:active {
+  text-decoration: none; }
