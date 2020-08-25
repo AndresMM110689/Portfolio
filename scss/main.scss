@@ -196,6 +196,9 @@ $height: 20rem;
 .box2 {
   height: $height/2;
 }
+.box3 {
+  height: 15rem;
+}
 .box__shadow {
   height: $height;
 }
@@ -214,8 +217,4 @@ $height: 20rem;
 .no__link {
     text-decoration:none;
     color: white;
-}
-
-a:link, a:visited, a:active {
-  text-decoration:none;
 }

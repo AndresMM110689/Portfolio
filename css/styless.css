@@ -147,6 +147,9 @@
 .box2 {
   height: 10rem; }
 
+.box3 {
+  height: 15rem; }
+
 .box__shadow {
   height: 20rem; }
 
@@ -163,6 +166,3 @@
 .no__link {
   text-decoration: none;
   color: white; }
-
-a:link, a:visited, a:active {
-  text-decoration: none; }
