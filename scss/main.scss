@@ -84,76 +84,6 @@ $white: #fdfdfd;
   @include title__ppal;
 }
 
-@mixin title__secondary1 {
-  display: inline-flex;
-  border-right: solid 0.2rem $white;
-  border-left: solid 0.2rem $white;
-  border-bottom: solid 0.2rem $white;
-  border-top: solid 0.2rem white;
-  background-color: white;
-  text-align: center;
-  color: $color2;
-  font-size: 2rem;
-  font-weight: 500;
-  line-height: 1.2;
-  margin-top: 0rem;
-  padding: 0.1rem 2rem 0.1rem 2rem;
-}
-.title__secondary1 {
-  @include title__secondary1;
-}
-@mixin title__secondary1-1 {
-  display: inline-flex;
-  border-right: solid 0.2rem $white;
-  border-left: solid 0.2rem $white;
-  border-bottom: solid 0.2rem $white;
-  border-top: solid 0.2rem white;
-  background-color: white;
-  text-align: center;
-  color: $color2;
-  font-size: 1.8rem;
-  font-weight: 500;
-  line-height: 1.2;
-  margin-top: 0rem;
-  padding: 0.1rem 2rem 0.1rem 2rem;
-}
-.title__secondary1-1 {
-  @include title__secondary1-1;
-}
-
-@mixin title__secondary2 {
-  display: inline-flex;
-  border-right: solid 0.2rem lighten($color4, 5%);
-  border-left: solid 0.2rem ligthen($color4, 5%);
-  border-bottom: solid 0.2rem ligthen($color4, 5%);
-  border-top: solid 0.2rem $color4;
-  background-color: $color4;
-  text-align: center;
-  color: $color2;
-  font-size: 2rem;
-  font-weight: 500;
-  line-height: 1.2;
-  margin-top: 0rem;
-  padding: 0.1rem 2rem 0.4rem 2rem;
-}
-.title__secondary2 {
-  @include title__secondary2;
-}
-
-@mixin title__tertiary {
-  text-align: center;
-  color: $color2;
-  font-size: 1.5rem;
-  font-weight: 500;
-  line-height: 1.2;
-  margin-top: 0rem;
-  padding: 0.1rem 2rem 0.4rem 2rem;
-}
-.title__tertiary {
-  @include title__tertiary;
-}
-
-
 @mixin p__ppal {
   text-align: center;
   border: solid 0.1rem $color3;
@@ -197,7 +127,7 @@ $height: 20rem;
   height: $height/2;
 }
 .box3 {
-  height: 15rem;
+  height: 5rem;
 }
 .box__shadow {
   height: $height;
@@ -210,11 +140,10 @@ $height: 20rem;
   text-align: center;
   border: solid 0.1rem $color3;
   color: $color1;
-  padding: 1.5rem;
-  margin-top: 0;
 }
 
 .no__link {
     text-decoration:none;
     color: white;
 }
+
